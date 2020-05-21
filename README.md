@@ -2,8 +2,8 @@
 
 [Link to Competition](https://www.hackerearth.com/challenges/competitive/hackerearth-machine-learning-challenge-predict-price-good-friday-gifts/)
 
-	+ I finished in the Top 10 among 400+ Participants
-	+ My Accuracy : 94.041%
+	I finished in the Top 10 among 400+ Participants
+	My Accuracy : 94.041%
 
 Problem statement
 
