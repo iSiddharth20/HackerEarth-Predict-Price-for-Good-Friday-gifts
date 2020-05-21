@@ -1,6 +1,6 @@
 # HackerEarth Machine Learning challenge: Predict the price for Good Friday gifts
 
-	[Link to Competition](https://www.hackerearth.com/challenges/competitive/hackerearth-machine-learning-challenge-predict-price-good-friday-gifts/)
+[Link to Competition](https://www.hackerearth.com/challenges/competitive/hackerearth-machine-learning-challenge-predict-price-good-friday-gifts/)
 
 	+ I finished in the Top 10 among 400+ Participants
 	+ My Accuracy : 94.041%
