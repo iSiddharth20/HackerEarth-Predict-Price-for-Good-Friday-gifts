@@ -17,4 +17,6 @@ Dataset
 	- This challenge will encourage you to apply your Machine Learning skills to build models that can predict the prices for different gift packages.
 	- This challenge will help you enhance your knowledge of time-series based regression. Regression is one of the basic building blocks of Machine Learning.
 
-We challenge you to build a model that determines prices for various gifts for Good Friday and Easter.
+HackerEarth :
+
+	We challenge you to build a model that determines prices for various gifts for Good Friday and Easter.
