@@ -47,7 +47,7 @@ joblib.dump(volume_model,'Volumes.pkl')
 df_train = original.copy()
 test  = pd.DataFrame(df_train[df_train[target].isnull()])
 df_train.dropna(inplace = True)
-predictions = finalmodel.predict(test[features])
+predictions = volume_model.predict(test[features])
 test[target] = predictions
 frame = [df_train,test]
 final = pd.concat(frame)
@@ -84,6 +84,6 @@ for est in range(120,151):
 					final_rs = rs
 					final_lr = lr
 					final_depth = depth
-					volume_model = model
+					price_model = model
 				lr += 0.001
 joblib.dump(price_model,'BestModel.pkl')

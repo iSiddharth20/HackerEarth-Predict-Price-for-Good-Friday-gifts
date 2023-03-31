@@ -47,7 +47,7 @@ test  = pd.DataFrame(df_train[df_train[target].isnull()])
 df_train.dropna(inplace = True)
 
 # Predicting Null Values in the 'Volumes' Column
-predictions = finalmodel.predict(test[features])
+predictions = model.predict(test[features])
 
 # Imputing Predicted Null Values in the Dataset
 test[target] = predictions
@@ -84,4 +84,4 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.3, rando
 model = GradientBoostingRegressor(n_estimators=135 , random_state=18 , learning_rate=0.359 , max_depth = 3)
 
 # Model exported ad a Pickle File 
-joblib.dump(price_model, 'BestPrice.pkl')
+joblib.dump(model, 'BestPrice.pkl')
