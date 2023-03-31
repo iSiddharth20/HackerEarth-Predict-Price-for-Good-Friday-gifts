@@ -20,3 +20,5 @@ Dataset
 HackerEarth :
 
 	We challenge you to build a model that determines prices for various gifts for Good Friday and Easter.
+
+Thank You!
