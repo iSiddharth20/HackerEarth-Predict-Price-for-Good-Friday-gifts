@@ -40,6 +40,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.3, rando
 
 # Creating the Model (Optimised)
 model = GradientBoostingRegressor(n_estimators = 120 , random_state = 2 , learning_rate = 0.378 , max_depth = 5)
+model.fit(X_train,Y_train)
 
 # Dividing the Dataframe to Impute predicted Null Values
 df_train = original.copy()
